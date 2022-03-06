@@ -1,5 +1,38 @@
-.hero {
-    color: tomato;
-    background-image: url("../images/headshot.jpeg");
+.name {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--2color);
+    margin: 0;
 }
 
+header nav li {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--2color);
+}
+
+.hero {
+    color: var(--2color);
+    background-image: url("/Users/jamesfelix/Desktop/coding-bootcamp/wc2/assets/images/headshot.jpeg");
+    background-size: cover;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--3color);
+}
+
+
+.bio {
+    color: var(--3color);
+}
+
+:root {
+    --1color: rgb(71, 237, 255);
+    --2color: rgb(115, 118, 120);
+    --3color: rgb(17, 78, 111);
+}
