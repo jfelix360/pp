@@ -103,6 +103,26 @@ section {
     color: var(--3color);
 }
 
+.app-boxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.lead-box {
+    border: 5px solid var(--1color);
+    align-items: center;
+    margin: 0 25% 25px 25%;
+}
+
+.app-box {
+    border: 5px solid var(--1color);
+    align-items: center;
+    margin: 0 10% 0 10%;
+
+    
+}
 
 :root {
     --1color: rgb(71, 237, 255);
