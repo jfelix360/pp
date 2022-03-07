@@ -1,35 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--2color);
+}
+
+
 .name {
     font-weight: bold;
     font-size: 36px;
     color: var(--2color);
-    margin: 0;
+    background-color: var(--1color);
 }
 
-header nav li {
-    list-style-type: none;
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
+
+
+header nav ul li a {
+    padding:10px 15px;
+    font-weight: bolder;
+    font-size: 18.5px;
+}
+
 
 header a {
-    text-decoration: none;
-    color: var(--2color);
+    text-decoration: underline;
+    color: var(--1color);
+}
+
+
+
+section {
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.work div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+.work div ul li p {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:10px 15px;
+    font-weight: bolder;
+    font-size: 18.5px;
 }
 
 .hero {
-    color: var(--2color);
+    color: var(--1color);
     background-image: url("/Users/jamesfelix/Desktop/coding-bootcamp/wc2/assets/images/headshot.jpeg");
     background-size: cover;
 }
 
+.hero-subtitle {
+    text-align: right;
+}
+
 .title {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 36px;
     color: var(--3color);
+
+    border-right: 3px solid;
+    padding-bottom: 20;
+    text-align:left;
+    margin: 0;
+    width: 10%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
 .bio {
     color: var(--3color);
 }
+
 
 :root {
     --1color: rgb(71, 237, 255);
