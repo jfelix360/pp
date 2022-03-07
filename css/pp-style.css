@@ -124,6 +124,14 @@ section {
     
 }
 
+.lead-box a:hover {
+    filter: brightness(1.5);
+}
+
+.app-box a:hover {
+    filter: brightness(1.5);
+}
+
 :root {
     --1color: rgb(71, 237, 255);
     --2color: rgb(115, 118, 120);
